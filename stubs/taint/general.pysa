@@ -2,7 +2,6 @@
 flask.wrappers.Request.args: TaintSource[UserSpecified] = ...
 
 # model for cookies
-@property
 def werkzeug.wrappers.BaseRequest.cookies(self) -> TaintSource[Cookies]: ...
 
 # model for xss
